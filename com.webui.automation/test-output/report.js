@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/achoudhury20/OneDrive - DXC Production/ONLINE/My own/Baltrum Online Dev workspaces/com.webui.automation/src/main/java/Featurefiles/newfeaturefile.Feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/achoudhury20/git/repo2/com.webui.automation/src/main/java/Featurefiles/newfeaturefile.Feature");
 formatter.feature({
   "line": 1,
   "name": "searchflight",
@@ -33,21 +33,21 @@ formatter.match({
   "location": "Searchflightstepdefinition.user_is_on_the_search_page()"
 });
 formatter.result({
-  "duration": 12507733000,
+  "duration": 11813145900,
   "status": "passed"
 });
 formatter.match({
   "location": "Searchflightstepdefinition.enters_the_search_details_and_click_on_search_button()"
 });
 formatter.result({
-  "duration": 2357712700,
+  "duration": 2146937500,
   "status": "passed"
 });
 formatter.match({
   "location": "Searchflightstepdefinition.list_of_available_flight_must_be_displayed()"
 });
 formatter.result({
-  "duration": 150200,
+  "duration": 311000,
   "status": "passed"
 });
 });

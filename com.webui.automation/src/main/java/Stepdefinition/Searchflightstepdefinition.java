@@ -23,7 +23,7 @@ public class Searchflightstepdefinition {
 	@Given("^user is on the search page$")
 	public void user_is_on_the_search_page()
 	{
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\achoudhury20\\OneDrive - DXC Production\\ONLINE\\My own\\Baltrum Online Dev workspaces\\com.webui.automation\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\achoudhury20\\git\\repo2\\com.webui.automation\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
 	    driver.manage().deleteAllCookies(); 
 		driver.get("https://www.cleartrip.com/");
@@ -37,7 +37,7 @@ public class Searchflightstepdefinition {
 		driver.findElement(By.cssSelector("input[value='RoundTrip']")).click();
 		driver.findElement(By.cssSelector("input[name='origin']")).sendKeys("BOM");
 		driver.findElement(By.cssSelector("input[name='destination']")).sendKeys("CCU");
-		driver.findElement(By.cssSelector("input[etitle='Depart Date']")).sendKeys("Fri, 30 Oct, 2020");
+		driver.findElement(By.cssSelector("input[etitle='Depart Date']")).sendKeys("Fri, 04 Nov, 2020");
 		driver.findElement(By.cssSelector("input[etitle='Return Date']")).clear();
 		driver.findElement(By.cssSelector("input[etitle='Return Date']")).sendKeys("Wed, 13 Jan, 2021");
 		Select adults=new Select(driver.findElement(By.cssSelector("select[name='adults']")));
