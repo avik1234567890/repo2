@@ -33,21 +33,21 @@ formatter.match({
   "location": "Searchflightstepdefinition.user_is_on_the_search_page()"
 });
 formatter.result({
-  "duration": 11813145900,
+  "duration": 10820275900,
   "status": "passed"
 });
 formatter.match({
   "location": "Searchflightstepdefinition.enters_the_search_details_and_click_on_search_button()"
 });
 formatter.result({
-  "duration": 2146937500,
+  "duration": 2356458200,
   "status": "passed"
 });
 formatter.match({
   "location": "Searchflightstepdefinition.list_of_available_flight_must_be_displayed()"
 });
 formatter.result({
-  "duration": 311000,
+  "duration": 13950859000,
   "status": "passed"
 });
 });
