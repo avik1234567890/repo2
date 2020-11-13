@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [my first suit]">
+  <test parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="Random.TestNgClassNew">
+        <methods>
+          <include name="g"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Random.TestNgClassNew -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [my first suit] -->
