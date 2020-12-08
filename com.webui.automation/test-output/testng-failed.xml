@@ -5,7 +5,7 @@
     <classes>
       <class name="Random.TestNgClassNew">
         <methods>
-          <include name="TheJewelleryroom"/>
+          <include name="myntra"/>
         </methods>
       </class> <!-- Random.TestNgClassNew -->
     </classes>
